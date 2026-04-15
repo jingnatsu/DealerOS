@@ -1,0 +1,30 @@
+# Build output
+backend/target/
+
+# Database files (persistent local data — do not commit)
+data/
+
+# Uploaded vehicle/investor files
+files/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# Temp
+*.tmp
+*.bak
+
+# Claude Code (AI assistant config — do not commit)
+.claude/
+*.claude
+CLAUDE.md

@@ -1,0 +1,34 @@
+/* ══════════════════════════════════════════════
+   DealerOS — Design Tokens / CSS Variables
+   ══════════════════════════════════════════════ */
+:root {
+  --bg: #0a0a0d;
+  --s1: #111115;
+  --s2: #18181c;
+  --s3: #202025;
+  --s4: #28282e;
+
+  --border:  rgba(255,255,255,0.06);
+  --border2: rgba(255,255,255,0.12);
+
+  --accent:  #e31c1c;
+  --accent2: #ff4444;
+  --accentd: #b01515;
+
+  --blue:   #3b82f6;
+  --blue2:  #60a5fa;
+  --green:  #22c55e;
+  --amber:  #f59e0b;
+  --red:    #ef4444;
+  --purple: #a78bfa;
+  --cyan:   #06b6d4;
+  --orange: #f97316;
+
+  --text:  #f0f0f3;
+  --text2: #9698a6;
+  --text3: #4f5060;
+
+  --r:   12px;
+  --rs:  8px;
+  --nav: 240px;
+}
