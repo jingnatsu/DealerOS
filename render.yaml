@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: dealeros
+    runtime: java
+    buildCommand: cd backend && mvn package -DskipTests
+    startCommand: java -Dspring.profiles.active=prod -jar backend/target/dealeros-backend-1.0.0.jar
+    envVars:
+      - key: SPRING_PROFILES_ACTIVE
+        value: prod
+    autoDeploy: true
